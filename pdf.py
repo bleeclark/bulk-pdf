@@ -3,7 +3,7 @@ import sys
 import os
 import requests
 import argparse
-from urllib.request import urlopen
+from urllib import urlopen
 
 '''
 argparse to enable finicky command-line args
